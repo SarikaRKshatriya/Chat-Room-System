@@ -4,6 +4,11 @@ Java
 Chat Room System:
 A chat Room System has two java classes one for server side socket connections and another for client side. This Server is multithreaded and keeps database of message if it gets shutdown and displays all the messages after restarting. All the clients are getting registered before starting chat. The System also handles bad request names. When a user sends a message to chat room it sends the message in HTTP format, the server then broadcasts the message to all the online users using GET method. The System also maintains record of time difference between two messages sent by a user and displays that time interval to all the online users. All users gets notified when new user logs on or logs off. The date is in HTTP format and the application is independent of the browser.
 Following are the steps to execute programs:
+
+[Users](https://github.com/SarikaRKshatriya/Chat-Room-System/blob/master/Users.png)
+
+[Server](https://github.com/SarikaRKshatriya/Chat-Room-System/blob/master/ChatServer.png)
+
 1.Run chatServer. It display’s name of the application “Chat Room System”, Start button  and Stop button ,one textarea to display chats messages with GET/POST and another to display online users. 
  
 2.Click on Start button, it starts the server and allows other clients to send and receive requests to it. The Server window displays message server started with current date. This helps to keep track of messages according to date. 
